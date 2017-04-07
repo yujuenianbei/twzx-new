@@ -1,0 +1,73 @@
+@red:#d8261c;
+@fff:#fff;
+@ds:#eee;
+@xzk:#ff7872;
+@foot:#CECECE;
+@gray:#999;
+html {
+  min-height:100%;
+  body {
+    width: 100%;
+    min-height: 100%;
+    background-attachment: fixed;
+    background: url(../images/shouye-bg.png) center center/cover no-repeat;
+    //pc
+    @media (min-width: 1200px) {
+      .context {
+        width: 100%;
+        position: fixed;
+        overflow: hidden;
+        margin: 30px auto 0;
+        transition: 0.3s;
+        top: 30%;
+      }
+      .footer {
+        bottom:0;
+        width: 100%;
+        min-height: 10px;
+        overflow: hidden;
+        background-color: rgba(255, 255, 255, 0);
+        position: absolute;
+      }
+    }
+    //  pad
+    @media (min-width: 768px) and (max-width: 1200px){
+      .context {
+        width: 100%;
+        position: fixed;
+        overflow: hidden;
+        margin: 30px auto 0;
+        transition: 0.3s;
+        top: 30%;
+      }
+
+      .footer {
+        bottom:0;
+        width: 100%;
+        min-height: 10px;
+        overflow: hidden;
+        background-color: rgba(255, 255, 255, 0);
+        position: absolute;
+      }
+    }
+    //  phone
+    @media (max-width: 767px){
+      .context {
+        width: 100%;
+        overflow: hidden;
+        margin: 25% auto 50%;
+        transition: 0.3s;
+        top: 30%;
+      }
+      .footer {
+        bottom:0;
+        width: 100%;
+        min-height: 10px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        background-color: rgba(255, 255, 255, 0);
+        position: relative;
+      }
+    }
+  }
+}

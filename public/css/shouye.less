@@ -1,0 +1,289 @@
+@red:#d8261c;
+@fff:#fff;
+@ds:#eee;
+@xzk:#ff7872;
+@foot:#CECECE;
+@gray:#999;
+html {
+  min-height:100%;
+  body {
+    width: 100%;
+    min-height: 100%;
+    background-attachment: fixed;
+    background: url(../images/shouye-bg.png) center center/cover no-repeat;
+    //pc
+    @media (min-width: 1200px) {
+      .context {
+        width: 100%;
+        position: fixed;
+        overflow: hidden;
+        margin: 30px auto 0;
+        transition: 0.3s;
+        top: 30%;
+        .search{
+          text-align: center;
+          .txt{
+            margin: 20px 0px;
+          }
+          .search-box{
+            .form-log{
+              width: 40%;
+              margin: 0 auto;
+                .input-group{
+                  width: 100%;
+                  .search-input{
+                    width: 84.5%;
+                    height: 45px;
+                    border-radius: 4px;
+                  }
+                  span{
+                    width:15%;
+                    .search-button{
+                      height: 45px;
+                      width:100%;
+                      border-radius: 4px;
+                    }
+                  }
+              }
+            }
+          }
+        }
+      }
+      .up{
+        text-align: center;
+        height: 42px;
+        padding: 10px 0 0;
+        font: 18px/32px '';
+        width: 125px;
+        color: #D8271C;
+        position: fixed;
+        background: #FFFFFF;
+        border-radius: 15px 15px 0 0;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+        margin: 0 auto 30px;
+        margin-bottom: 30px;
+        transition: 0.3s;
+      }
+      .title{
+        width:100%;
+        transition: 0.3s;
+        display: block;
+        height:0;
+        position: fixed;
+        margin: 0 auto;
+        bottom: 30px;
+        padding: 10px;
+        overflow: hidden;
+        background: #fff;
+        margin-bottom: -90px;
+        .mm{
+          width:1200px;
+          margin: 0 auto;
+          div{
+            float: left !important;
+            padding: 10px 15px 0px !important;
+            h4{
+              height: 40px;
+              font-size: 16px;
+              line-height: 40px;
+              color: #3D3D3D;
+            }
+            p{
+              color: @gray;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+
+      .footer {
+        bottom:0;
+        width: 100%;
+        min-height: 10px;
+        overflow: hidden;
+        background-color: rgba(255, 255, 255, 0);
+        position: absolute;
+      }
+    }
+    //  pad
+    @media (min-width: 768px) and (max-width: 1200px){
+      .context {
+        width: 100%;
+        position: fixed;
+        overflow: hidden;
+        margin: 30px auto 0;
+        transition: 0.3s;
+        top: 30%;
+        .search{
+          text-align: center;
+          .txt{
+            margin: 20px 0px;
+          }
+          .search-box{
+            .form-log{
+              width: 50%;
+              margin: 0 auto;
+              .input-group{
+                width: 100%;
+                .search-input{
+                  width:85%;
+                  height: 45px;
+                }
+                span{
+                  width:15%;
+                  .search-button{
+                    height: 45px;
+                    width:100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .up{
+        text-align: center;
+        height: 42px;
+        padding: 10px 0 0;
+        font: 18px/32px '';
+        width: 125px;
+        color: #D8271C;
+        position: fixed;
+        background: #FFFFFF;
+        border-radius: 15px 15px 0 0;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+        margin: 0 auto 30px;
+        margin-bottom: 30px;
+        transition: 0.3s;
+      }
+      .title{
+        width:100%;
+        transition: 0.3s;
+        display: block;
+        height:0;
+        position: fixed;
+        margin: 0 auto;
+        bottom: 30px;
+        padding: 10px;
+        overflow: hidden;
+        background: #fff;
+        margin-bottom: -90px;
+        .mm{
+          margin: 0 auto;
+          div{
+            float: left !important;
+            padding: 10px 15px 0px !important;
+            h4{
+              height: 40px;
+              font-size: 16px;
+              line-height: 40px;
+              color: #3D3D3D;
+            }
+            p{
+              color: @gray;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+      .footer {
+        bottom:0;
+        width: 100%;
+        min-height: 10px;
+        overflow: hidden;
+        background-color: rgba(255, 255, 255, 0);
+        position: absolute;
+      }
+    }
+    //  phone
+    @media (max-width: 767px){
+      .context {
+        width: 100%;
+        overflow: hidden;
+        margin: 25% auto 50%;
+        transition: 0.3s;
+        top: 30%;
+        .search{
+          text-align: center;
+          .img{
+            img{
+              width: 40%;
+            }
+          }
+          .txt{
+            margin: 15px 15px;
+            img{
+              width:100%;
+            }
+          }
+          .search-box{
+            width:100%;
+            .searchin{
+              width: 94%;
+              padding: 0px;
+              margin: 0px 3%;
+              .form-log{
+                width:100%;
+                margin: 0 auto;
+                .input-group{
+                  width: 100%;
+                  .search-input{
+                    width:70%;
+                    height: 45px;
+                  }
+                  span{
+                    width:30%;
+                    .search-button{
+                      height: 45px;
+                      width:100%;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .title{
+        width:100%;
+        transition: 0.3s;
+        display: block;
+        min-height:10px;
+        overflow: hidden;
+        margin: 0 auto;
+        padding: 0;
+        background: rgba(255, 255, 255, 0);
+        .mm{
+          margin: 0 auto;
+          div{
+            float: left !important;
+            padding: 10px 15px 10px !important;
+            h4{
+              height: 40px;
+              font-size: 16px;
+              line-height: 40px;
+              color: #3D3D3D;
+            }
+            p{
+              color: @gray;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+      .footer {
+        bottom: 0;
+        width: 100%;
+        min-height: 10px;
+        margin-bottom: 0px;
+        overflow: hidden;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+      }
+    }
+  }
+}
