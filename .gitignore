@@ -1,1 +1,42 @@
-Nothing needs to be added to .gitignore since only a Python source file (`subtract.py`) was added, which is a source code file that should be tracked in version control.
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.ENV
+.ENV.*
+.venv/
+.venv.*
+.env
+.env.*
+.env.local
+.env.*
+.envrc
+.python-version
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage/
+htmlcov/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Icon?
+```
+
+Wait, let me reconsider. The only added file is `multiply.py`, which is a source code file. There are no build artifacts, dependency directories, or temporary files in the change list that would require ignoring.
+
+```gitignore
+
+```
