@@ -1,1 +1,1 @@
-Nothing should be ignored since only a Python source file (.py) was added without any build artifacts, dependencies, or temporary files.
+Nothing needs to be added to .gitignore since only a Python source file (`subtract.py`) was added, and no build artifacts, dependencies, or temporary files are present in the changes.
