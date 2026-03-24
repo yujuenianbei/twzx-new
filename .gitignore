@@ -1,42 +1,23 @@
-```gitignore
-# Python
-__pycache__/
+```python
+# Compiled and build artifacts
 *.pyc
-*.pyo
-*.pyd
-.Python
-env/
+__pycache__/
+
+# Dependencies
+.venv/
 venv/
-.venv/
-.ENV
-.ENV.*
-.venv/
-.venv.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
-.env.*
 .env.local
-.env.*
-.envrc
-.python-version
-.pytest_cache/
-.mypy_cache/
-.coverage
-coverage/
-htmlcov/
+*.env.*
 
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-Icon?
-```
-
-Wait, let me reconsider. The only added file is `multiply.py`, which is a source code file. There are no build artifacts, dependency directories, or temporary files in the change list that would require ignoring.
-
-```gitignore
-
+# Editors
+.vscode/
+.idea/
 ```
